@@ -1,0 +1,48 @@
+TO DO
+
+jenkins token: 8e55102d48a740c3b01c0ff11271b60d
+github token: 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
+
+Fundamentals of eg yvelaferi ra
+	Kubrenetes
+	AWS
+	Docker
+	HELM
+
+
+	
+
+!+	LAMP stack აპლიკაცია აამუშავე docker_ში. ლოკალჰოსტზე უნდა შემეძლოს გამოტანა მთავარი გვერდის
+	
+	reference:
+		https://github.com/levankhelo/ElasticSearch-Kibana-Py
+		დაგეხმარება ზოგადი ძაან საგუძვლებში ჩაიხედო როგორ მუშაობს docker compose და მიხვდე პრონციპებს
+
+
+
+You have 2 projects:
+
+——1——
+1. Containerize Python application and Redis database
+
+2. You should be able to SET some value and GET that value in couple of seconds
+
+3. After completing simple SET and GET tasks, you should make REDIS database persistent. So when you restart application, all data that you have set, are still there.
+
+
+——2——
+1. Containerize python and Postgresql or any other database. Maybe even SQL.
+
+2. Make Datavbase persistent 
+
+3. Input new data with same set of fields (name, lastname, id) every 5 seconds. This data (name, lastanme and id) should be absolutely random, you can just input random letters or numbers, doesn’t matter.
+
+
+
+
+
+
+
+——NOTES——
+1. Everything must be uploaded on Github
+2. Every commit must have logical messages, don’t push everything under 1 commit. Split them by files
