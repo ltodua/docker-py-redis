@@ -6,8 +6,6 @@ services:
       ports:
         - "6000:6000"
       volumes:
-        - .:/code
-      environment:
-        FLASK_ENV: development
+        - /Users/luciann/Desktop/training/docker-py-redis/redis_app:/code
     redis:
       image: "redis:alpine"
